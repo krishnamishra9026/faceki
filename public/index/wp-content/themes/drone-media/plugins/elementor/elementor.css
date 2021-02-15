@@ -1,0 +1,132 @@
+    /* Elementor styles
+----------------------------------------------------------------- */
+    /* Hide  vc_admin_bar */
+    
+    body.elementor-page #wp-admin-bar-root-default #wp-admin-bar-vc_inline-admin-bar-link {
+        display: none;
+    }
+    /* Stretch columns container to remove white spaces from sides of the rows with gaps between columns */
+    
+    .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section)>.elementor-container:not(.elementor-column-gap-no) {
+        max-width: none;
+        position: relative;
+    }
+    
+    .elementor-section.elementor-section-height-full {
+        height: 100%;
+        min-height: 100vh;
+    }
+    
+    .elementor-section.elementor-section-height-full>.elementor-container {
+        height: 100%;
+        min-height: 100vh;
+    }
+    
+    .elementor-element.elementor-widget.elementor-widget-heading+.elementor-element.elementor-widget.elementor-widget-text-editor {
+        margin-top: 0;
+    }
+    
+    .elementor-text-editor,
+    .sc_item_descr {
+        margin-bottom: 0;
+    }
+    /* Elementor Layout Header */
+    
+    section.elementor-element.sc_layouts_row_fixed_always.sc_extra_bg_none.sc_bg_mask_none,
+    header.top_panel_custom_header-default-el section.elementor-element {
+        padding-right: 3.2em;
+        padding-left: 3.35em;
+        transition: all .3s ease;
+    }
+    /* Elementor Widget Slider */
+    
+    body.elementor-editor-active section.elementor-element .slider_container {
+        display: block;
+    }
+    
+    .elementor-element .sc_widget_slider .slider_outer .swiper-pagination-fraction {
+        bottom: 1.5em;
+    }
+    
+    .elementor-element .sc_widget_slider .slider_outer.slider_outer_titles_outside {
+        padding-bottom: 11rem;
+    }
+    
+    .elementor-element .sc_widget_slider .slider_outer_titles_center .slider_container.slider_pagination_pos_bottom.slider_pagination_fraction .slide_info:not(.slide_info_large) {
+        bottom: auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .elementor-element .sc_widget_slider .slider_outer_titles_center .slider_container.slider_pagination_pos_bottom.slider_pagination_fraction .slider_pagination_wrap.swiper-pagination-fraction {
+        bottom: 2em;
+    }
+    /* Elementor Widget Audio */
+    
+    .elementor-element .sc_widget_audio .trx_addons_audio_player .audio_info {
+        padding-top: 1em;
+    }
+    /* Elementor Services */
+    
+    .elementor-element.elementor-services_stretch .sc_services.sc_services_light .with_icon .sc_services_item_content {
+        margin-right: 5em;
+    }
+    /* Elementor TRX Googlemap Custom Style*/
+    
+    section.elementor-element.elementor-custom_googlemap {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    /* Elementor Widget Testimonials */
+    
+    .elementor-element .sc_testimonials [class*="column"] .sc_testimonials_item_content {
+        padding-right: 4rem;
+    }
+    
+    .elementor-element .sc_testimonials .sc_testimonials_item_content {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .elementor-element .sc_testimonials .sc_testimonials_item_content p {
+        text-align: left;
+        font-size: 1em;
+        line-height: 1.71em;
+    }
+    
+    .elementor-element .sc_testimonials_simple .sc_testimonials_item_author_data:before {
+        display: none;
+    }
+    
+    .elementor-element .sc_testimonials_simple .sc_testimonials_item_author {
+        text-align: left;
+        padding: 0;
+    }
+    
+    .elementor-element .sc_testimonials_simple .sc_testimonials_item_author_data {
+        padding-left: 4rem;
+    }
+    
+    .elementor-element .sc_testimonials .sc_item_slider.slider_outer_pagination_pos_bottom .swiper-pagination {
+        padding-left: 4rem;
+    }
+    /* Elementor Widget Socials */
+    
+    .elementor-element .sc_widget_socials .socials_wrap {
+        margin: 0 -8px 0 0;
+    }
+    /* Footer */
+    
+    .footer_wrap.footer_custom_footer-default-el .sc_layouts_column .sc_layouts_item {
+        margin-right: 0;
+    }
+
+
+    /* Fix elementor V.3.0.0 */
+     .elementor-widget-divider .elementor-divider {
+         font-size: 0;
+     }
+     .elementor-widget:not(:last-child) {
+         margin-bottom: 0;
+     }

@@ -1,0 +1,93 @@
+Version 1.3.4
+    Fixed:
+        - Update plugins to the latest versions
+	    - Improve theme styles
+
+Version 1.3.3
+	Added:
+        - Elementor Compatibility
+        - Elementor Homepage
+    Fixed:
+        - Update plugins to the latest versions
+	    - Improve theme styles
+	Removed:
+        - Contact Form 7 Datepicker plugin
+
+Version 1.3.2
+    Fixed:
+    		- Compatibility with WP 5.3
+            - Update plugins to their latest versions
+            - Improve theme styles
+        Added:
+            - RTL Version
+            - elegro Crypto Payment plugin
+            - ThemeREX Updater
+
+Version 1.3.1
+    Fixed:
+        - Compatibility with Revolution Slider 6.1.1
+        - Compatibility with WooCommerce 3.7.0
+Version 1.3.0
+    Added:
+    - Page Service Plus
+    - New Home page shop
+    - New Home page video
+    - New Color scheme
+    Fixed:
+        - Compatibility with Revolution Slider 6.0.9
+        - Compatibility with WooCommerce 3.7.0
+        - Compatibility with WordPress 5.2.2
+        - Update plugins to their latest versions
+
+Version 1.2.4
+    Fixed:
+    - Compatibility with WooCommerce 3.6
+    - Facebook share issue
+
+Version 1.2.3
+    Fixed:
+    - Compatibility with PHP 7.3
+
+Version 1.2.2
+	Added:
+	- CSS class "custom_home" (set Content area shortcode width to 100% on responsive)
+    Fixed:
+	- Update JS libraries
+    - Theme options on custome post types
+
+Version 1.2.1
+	Added:
+	- Optimization for Gutenberg
+	- Compatibility with Contact Form 7 plugin
+    Fixed:
+	- Compatibility with WordPress 5.0
+    - Responisve design (testimonials, team)
+    - Display link post format on blog
+
+Version 1.2
+    Fixed: 
+	- Compatibility with WordPress 4.9.7 
+    - Update plugins to their latest versions 
+   
+    Added: 
+    - Woocommerce shop buttons
+    - New style
+
+Version 1.1.1
+   Add GDPR update
+   Add GDPR Framework plugin
+   Add alert install demodate
+
+Version 1.1
+   Updated plugins to their latest versions
+   Capability WooCommerce 3+
+
+Version 1.0.1
+   Header image override issues fixed
+   Modal window reduced
+   The button close modal window is moved
+   Updated plugins to their latest versions
+   Add WordPress 4.9.6 compatibility
+
+Version 1.0
+	Release

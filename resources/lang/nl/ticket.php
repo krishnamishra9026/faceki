@@ -1,0 +1,25 @@
+<?php
+
+return array (
+  'add_reply' => 'Reactie toevoegen',
+  'category' => 'Categorie',
+  'category_select' => 'Selecteer categorie',
+  'hight' => 'Hoog',
+  'last_updated' => 'Laatst bijgewerkt',
+  'low' => 'Laag',
+  'medium' => 'Medium',
+  'message' => 'Bericht',
+  'my_tickets' => 'Mijn tickets',
+  'new' => 'Nieuw ticket maken',
+  'no_current_ticket' => 'Er zijn momenteel geen tickets.',
+  'no_tickets' => 'U heeft geen tickets gemaakt.',
+  'open' => 'Open ticket',
+  'priority' => 'Prioriteit',
+  'select_category' => 'Selecteer categorie',
+  'select_priority' => 'Selecteer Prioriteit',
+  'status' => 'Staat',
+  'submit' => 'Voorleggen',
+  'ticket' => 'Ticket',
+  'tickets' => 'Kaartjes',
+  'title' => 'Titel',
+);

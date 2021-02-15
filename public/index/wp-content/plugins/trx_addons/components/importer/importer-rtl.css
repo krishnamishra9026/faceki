@@ -1,0 +1,10 @@
+/*----- RTL -----*/
+
+.trx_importer_section {
+    float: right;
+}
+
+.trx_importer_advanced_settings_title:after {
+    left: 1em;
+    right:inherit;
+}

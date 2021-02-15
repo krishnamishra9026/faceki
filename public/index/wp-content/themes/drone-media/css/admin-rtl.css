@@ -1,0 +1,54 @@
+/*----- RTL -----*/
+
+.drone_media_options_item_info .drone_media_options_item_title {
+    text-align: right;
+}
+.drone_media_options_item_info {
+    border-right: 3px solid #aaa;
+    border-left: 0px solid #aaa;
+}
+[class*="drone_media_column-"] .drone_media_options_item_title {
+    text-align: right;
+}
+[class*="drone_media_column-"] .drone_media_options_item_data {
+    text-align: right;
+}
+div.ui-slider {
+    text-align: right;
+}
+.drone_media_options_item_title {
+    margin: 0.4em 0 0.5em 0.5em;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.drone_media_range_slider_value {
+    margin-left: 3% !important;
+    margin-right: 0% !important;
+    text-align: left;
+}
+div.ui-accordion .drone_media_accordion_title.ui-accordion-header .ui-icon {
+    margin-left: 0.8em;
+    margin-right: 0;
+}
+.drone_media_list_icons_selector {
+    left: 1px;
+    right: auto;
+    border-right: 1px solid #ccc;
+    border-left: 0px solid #ccc;
+}
+.drone_media_list_icons {
+    left: 0!important;
+}
+.drone_media_options_inherit_lock {
+    left: 0;
+    right: auto;
+}
+
+#tgmpa-plugins .tgmpa_column_version {
+    margin-left: 1em;
+}
+
+.drone_media_about_title {
+    margin-right: 0;
+    margin-left: 0.5em;
+}

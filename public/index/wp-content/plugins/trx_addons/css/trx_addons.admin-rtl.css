@@ -1,0 +1,27 @@
+/*----- RTL -----*/
+
+.trx_addons_icon_selector + .trx_addons_list_icons {
+    padding: 0 1px 1px 0;
+    left: 0!important;
+    right: 0;
+    float: right;
+}
+.trx_addons_vc_param_radio label {
+	margin-left: 1em;
+	margin-right: 0;
+}
+.trx_addons_vc_param_radio label input {
+	margin-left: 0.3em;
+	margin-right: 0;
+}
+.vc_properties-list select {
+	padding: 8px 6px 8px 24px !important;
+}
+.vc_shortcode-param[data-param_type="dropdown"] select.wpb_vc_param_value,
+.vc_shortcode-param[data-param_type="dropdown"] select.wpb_vc_param_value option {
+	text-align: right !important;
+}
+.trx_addons_icon_selector + .trx_addons_list_icons {
+	right: 10px;
+	left: auto !important;
+}

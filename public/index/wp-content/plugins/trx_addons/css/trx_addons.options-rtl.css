@@ -1,0 +1,56 @@
+/*----- RTL Styles -----*/
+
+body * {
+	letter-spacing: 0 !important;
+}
+#trx_addons_options_tabs.with_tabs .trx_addons_options_section {
+	margin-left: 2em;
+	margin-right: 0;
+}
+.trx_addons_options_item_title {
+	margin: 0.3em 0 0.5em 0.5em;
+	padding-left: 20px;
+	padding-right: 0;
+	float: right;
+	text-align: right;
+}
+.trx_addons_options_item_info .trx_addons_options_item_title {
+	text-align: right;
+}
+.trx_addons_options_item_data {
+	float: right;
+}
+.trx_addons_options_item_field .trx_addons_options_item_label + .trx_addons_options_item_label {
+	margin-right: 1em;
+	margin-left: 0;
+}
+.trx_addons_options_clone_control_move {
+	right: 0;
+	left: auto;
+}
+.trx_addons_options_clone_control_add {
+	left: 30px;
+	right: auto;
+}
+.trx_addons_options_clone_control_delete {
+	left: 0;
+	right: auto;
+}
+[class*="trx_addons_column-"] {
+	padding-left: 20px;
+	padding-right: 0 !important;
+}
+[class*="trx_addons_column-"] .trx_addons_options_item_title {
+	text-align: right;
+	padding-left: 0;
+}
+[class*="trx_addons_column-"] .trx_addons_options_item_data {
+	text-align: right;
+}
+.trx_addons_options_item_field .trx_addons_options_item_label + .trx_addons_options_item_label input[type="radio"] {
+	margin-right: 1em;
+}
+
+.trx_addons_options_item_field {
+	display: flex;
+}
