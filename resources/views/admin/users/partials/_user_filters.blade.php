@@ -1,9 +1,12 @@
+@php
+    use Illuminate\Support\Arr;
+@endphp
 @if($style == 'link')
 
     @foreach($map as $value => $name)
         @if(request($key))
             <a class="nav-item nav-link btn btn-primary"
-               href="{{ route('admin.users.index', array_except(request()->query(), [$key, 'page'])) }}">
+               href="{{ route('admin.users.index', Arr::except(request()->query(), [$key, 'page'])) }}">
                 {{ $name }} <i class="fa fa-times-circle"></i>
             </a>
         @else
@@ -33,7 +36,7 @@
 
         @if(request($key))
             <a class="nav-item nav-link btn btn-primary"
-               href="{{ route('admin.users.index', array_except(request()->query(), [$key, 'page'])) }}">
+               href="{{ route('admin.users.index', Arr::except(request()->query(), [$key, 'page'])) }}">
                 <i class="fa fa-times-circle"></i>
             </a>
         @endif

@@ -466,6 +466,14 @@ Route::group(['prefix' => '/admin', 'namespace' => 'Admin\Controllers', 'as' => 
 
     });
 
+    Route::group(['namespace' => 'Api'], function () {
+        /**
+         * Plans Resource Routes
+         */
+        Route::resource('/apis', 'ApiController');
+
+    });
+
     /**
          * Coupon Namespace Routes
          */
@@ -481,6 +489,7 @@ Route::group(['prefix' => '/admin', 'namespace' => 'Admin\Controllers', 'as' => 
     Route::group(['namespace' => 'Subscription'], function () {
 
         Route::get('/subscriptions', 'SubscriptionController@index')->name('subscriptions.index');
+        Route::get('/subscriptions/create', 'SubscriptionController@create')->name('subscriptions.create');
 
     });
     /**

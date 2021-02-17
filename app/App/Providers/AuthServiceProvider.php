@@ -11,6 +11,9 @@ use CreatyDev\Domain\Users\Policies\RolePolicy;
 use CreatyDev\Domain\Users\Policies\UserPolicy;
 use CreatyDev\Domain\Users\Policies\PlanPolicy;
 use CreatyDev\Domain\Users\Policies\CouponPolicy;
+use CreatyDev\Domain\ApiPolicy;
+use CreatyDev\Domain\Admin\Api\Api;
+
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
 class AuthServiceProvider extends ServiceProvider
@@ -24,7 +27,8 @@ class AuthServiceProvider extends ServiceProvider
         User::class => UserPolicy::class,
         Role::class => RolePolicy::class,
         Plan::class => PlanPolicy::class,
-        Coupon::class => CouponPolicy::class
+        Coupon::class => CouponPolicy::class,
+        Api::class => ApiPolicy::class,
     ];
 
     /**

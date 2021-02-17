@@ -105,6 +105,26 @@
             </li>
         </ul>
     </li>
+    <!-- manage api's -->
+    <li class="nav-item nav-dropdown">
+        <a class="nav-link nav-dropdown-toggle" href="#">
+            <i class="fa fa-tags"></i> Manage Apis
+        </a>
+        <ul class="nav-dropdown-items">
+            <li class="nav-item">
+                <a class="nav-link{{ return_if(on_page('admin.apis.index'), ' active') }}"
+                    href="{{ route('admin.apis.index') }}">
+                    <i class="fa fa-tags"></i>All Apis
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link{{ return_if(on_page('admin.apis.create'), ' active') }}"
+                    href="{{ route('admin.apis.create') }}">
+                    <i class="icon-plus"></i> Add Api
+                </a>
+            </li>
+        </ul>
+    </li>
     <!-- Coupons -->
     <li class="nav-item nav-dropdown">
             <a class="nav-link nav-dropdown-toggle" href="#">
